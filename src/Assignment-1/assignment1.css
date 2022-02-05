@@ -2,6 +2,55 @@
 
 
 .container, .content {
-width: 100%;
-height: 100%;
-}
+    width: 100%;
+    height: 100%;
+    }
+    .top{
+        display:inline-block;
+        width:100vw;
+        
+    }
+    .top-left{
+        display:inline-block;
+        width:47%;
+        background-color:yellow;
+        height:50vh;
+        vertical-align:top;
+        
+    }
+    .top-right{
+        display:inline-block;
+        width:47%;
+        background-color:blue;
+        height:50vh;
+        vertical-align:top;
+        
+    }
+    img
+    {
+        width:100%;
+    height:100%;}
+    li{
+        font-size:5vh;}
+    .bottom{
+        display:inline-block;
+        width:100vw;
+    }   
+    
+    .bottom-left{
+        display:inline-block;
+        width:47%;
+        background-color:blue;
+        height:50vh;
+        vertical-align:top;
+        
+    }
+    .bottom-right{
+        display:inline-block;
+        width:47%;
+        background-color:chartreuse;
+        height:50vh;
+        vertical-align:top;
+        
+    }	
+    
