@@ -71,14 +71,20 @@ height: 100%;
 .lside
 {
     display: flex;
+    justify-content: flex-start;
     width:10%;
-    height: 90%;
+    height: 504px;
     background-color: burlywood;
 
 }
+
 .lside ul li{
-    height:40px;
-    
+    position: relative;
+    top: 20px;
+    height: 45px;
+    width: 20%;
+    list-style: none;
+    /* background-color: burlywood; */
     
 }
 .sect
@@ -103,9 +109,9 @@ height: 100%;
 .rside ul li{
     height:40px;
     width: 20%;
+    list-style: none;
 }
 
-}
 #main-content-section{
     display: flex;
     justify-content: space-around;
