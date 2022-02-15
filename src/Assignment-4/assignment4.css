@@ -3,7 +3,7 @@
 
 .container, .content {
 width: 100%;
-height: 100%;
+height: 100vh;
 }
 body {
     font-family: 'Raleway', sans-serif;
@@ -15,6 +15,7 @@ header
     height: 50px;
     padding: 0 25px;
     border-bottom:1px solid teal;
+    margin: 0px;
 }
 header nav 
 {
@@ -56,8 +57,9 @@ header h1 {
     background-size: cover;
     text-align: center;
     padding: 50px 0;
-    margin-bottom: 50px;
-    height: 450px;
+    /* margin-bottom: 50px; */
+    height: 30%;
+    margin: 0px;
 
   }
   #hero img {
@@ -99,6 +101,7 @@ header h1 {
     text-align: center;
     vertical-align: top;
     margin: 0 10px;
+    height: 30%;
   }
 .three-col img {
     border-radius: 50%;
@@ -128,6 +131,8 @@ footer {
     margin-top: 40px;
     padding: 20px 0;
     text-align: center;
+    height: calc(49%-50px);
+    /* margin: 0px; */
 }
 footer ul {
   margin: 40px 0;
